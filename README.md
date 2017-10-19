@@ -1,12 +1,13 @@
 RESULTADOS
 ==========
 
-1. Autocorrelación de % de carga (calculada a nivel circuito)
--------------------------------------------------------------
+Autocorrelación de % de carga (calculada a nivel circuito)
+----------------------------------------------------------
 
 -   El input debería ser un dataframe con
--   timestap
--   correlacion
+
+    -   timestamp
+    -   correlacion
 
 <!-- -->
 
@@ -20,24 +21,26 @@ RESULTADOS
     ##  3rd Qu.:19.0   3rd Qu.: 56.00  
     ##  Max.   :25.0   Max.   :120.00
 
-2. Correlación `voto_PASO` y `porcentaje_de_carga`
---------------------------------------------------
+Correlación votos en PASO y % de voto (por partido) `porcentaje_de_carga`
+-------------------------------------------------------------------------
 
 -   El input debería ser un dataframe con
--   timestap
--   partido\_politico
--   correlacion
 
-3. Comparación entre
---------------------
+    -   timestap
+    -   partido\_politico
+    -   correlacion
+
+Comparación entre carga PASO simulada con mesas en ACTUAL
+---------------------------------------------------------
 
 -   El input debería ser un dataframe con
--   timestamp
--   partido\_politico
--   sesgo
 
-4. Gráfico: Evolución `voto_ACTUAL` (por partido)
--------------------------------------------------
+    -   timestamp
+    -   partido\_politico
+    -   sesgo
+
+Gráfico: Evolución de votos (por partido)
+-----------------------------------------
 
 -   OPCION 1: El input puede ser un jpg
 -   OPCION 2: El input debería ser un dataframe con
@@ -47,18 +50,19 @@ RESULTADOS
 
 ![](README_files/figure-markdown_strict/pressure-1.png)
 
-5. Gráfico: Porcentaje de carga por departamento (datos GIS)
-------------------------------------------------------------
+Gráfico: Porcentaje de carga por departamento (datos GIS)
+---------------------------------------------------------
 
--   ? Ni idea
+-   NO SE QUE HABRIA QUE PONER ACA
 
-6. "Analizar timestams"???
---------------------------
+Analizar timestams ???
+----------------------
 
-7. Predicción FINAL
--------------------
+Predicción FINAL
+----------------
 
 -   El input debería ser un dataframe con
--   timestamp
--   partido\_politico
--   prediccion
+
+    -   timestamp
+    -   partido\_politico
+    -   prediccion
